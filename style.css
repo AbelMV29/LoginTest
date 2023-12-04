@@ -33,7 +33,7 @@ input
     height: 30px;
     border-radius: 5px;
 }
-button
+.button
 {
     color:white;
     font-family: sans-serif;
@@ -44,6 +44,10 @@ button
     font-size: 100%;
     font-weight: bold;
     cursor: pointer;
+}
+.button:hover
+{
+    background-color: #23273b;
 }
 .footer
 {
