@@ -1,0 +1,61 @@
+body
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    background-image: url(https://www.ngenespanol.com/wp-content/uploads/2023/07/que-le-pasa-al-cuerpo-humano-en-el-espacio-exterior-sucede.jpg);
+    background-size: cover;
+    background-position: center ce;
+    background-repeat: no-repeat;
+}
+.container
+{
+    width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    gap:20px
+}
+h3
+{
+    text-align: center;
+    font-size: 250%;
+    margin: 10px;
+}
+input
+{
+    height: 30px;
+    border-radius: 5px;
+}
+button
+{
+    color:white;
+    font-family: sans-serif;
+    background-color: black;
+    height: 30px;
+    border:transparent;
+    background-color: #22252e;
+    font-size: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer
+{
+    margin-top: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+a{
+    color:white
+}
+.record
+{
+    text-decoration: none;
+}
